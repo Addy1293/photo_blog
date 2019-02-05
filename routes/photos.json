@@ -1,6 +1,6 @@
 
 {
-    "movies": [{
+    "photos": [{
       "title" : "Star Wars: Episode I - The Phantom Menace",
       "episode_number" : "1",
       "main_characters" : ["Qui-Gon Jinn", "Obi-Wan Kenobi", "Anakin Skywalker", "Padmé Amidala", "Jar Jar Binks", "Darth Maul"],

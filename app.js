@@ -4,28 +4,22 @@ var app = express();
 
 app.set('view engine', 'ejs');
 
+var routes = require('./routes');
+
 // Routes
 // Home
 // get request for a route
 // 1st parameter is the home page, 2nd parameter is a call back function with a request(req) and response(res) parameters.
 // res.send will post message on localhost3000.
 // imbeded javascript to loop through a array.
-app.get('/', function (req, res){
-    res.render('home',{
-        title : "My Photography Blog",
-    });
-});
+app.get('/', routes.home);
+
 // 1st photography pictures 
-app.get('/photography_blog/:first_picture ?', function(req, res) {
-    var first_picture = req.params.first_picture;
-    res.send("Page for the 1st picture " + first_picture);
-});
+app.get('/photography_blog/:each_picture ?', routes.each_picture);
 
 // notFound
 // This is like a 404 error
-app.get('*', function(req, res) {
-    res.send("This is not the page you're looking for")
-})
+app.get('*', routes.notFound);
 
 app.listen(3000, function(){
     console.log("app is running on localhost:3000");
