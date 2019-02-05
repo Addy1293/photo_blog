@@ -1,0 +1,23 @@
+{
+  "name": "photo_blog",
+  "version": "1.0.0",
+  "description": "A photography blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Addy1293/photo_blog.git"
+  },
+  "author": "Adam Gool",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Addy1293/photo_blog/issues"
+  },
+  "homepage": "https://github.com/Addy1293/photo_blog#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
