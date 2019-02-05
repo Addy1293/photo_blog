@@ -9,9 +9,10 @@ app.set('view engine', 'ejs');
 // get request for a route
 // 1st parameter is the home page, 2nd parameter is a call back function with a request(req) and response(res) parameters.
 // res.send will post message on localhost3000.
+// imbeded javascript to loop through a array.
 app.get('/', function (req, res){
     res.render('home',{
-        title : "My Photography Blog"
+        title : "My Photography Blog",
     });
 });
 // 1st photography pictures 
