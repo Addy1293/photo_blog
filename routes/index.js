@@ -26,4 +26,3 @@ exports.each_picture = function(req, res) {
 exports.notFound = function(req, res) {
     res.send("This is not the page you're looking for");
 };
-
