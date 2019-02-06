@@ -6,14 +6,11 @@
 
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
-    <div id="hero-image">
-      <div><h1>Addy Pictures</h1></div>
-      <div></div>
-    </div>
-
-
+    
+    <% for (var i =0; i < photos.length; i++) { %>
+      <!-- This will get the images from the class called poster in images. -->
+      <img src="/images/<%= photos[i].poster %>" class="img-responsive">
+    <% } %>
     <!-- stopped at loop through photos -->
 
 

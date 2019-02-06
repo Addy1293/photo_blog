@@ -6,6 +6,9 @@ app.set('view engine', 'ejs');
 
 var routes = require('./routes');
 
+var path = require('path');
+// static path is in the public directory.
+app.use(express.static(path.join(__dirname, 'public')));
 // Routes
 // Home
 // get request for a route
