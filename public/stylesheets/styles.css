@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 45px;
+    
+    }
+
+
+#hero-image {
+	height: 550px;
+	width: 100%;
+	background-color: #444;
+	background-image: url('../images/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
