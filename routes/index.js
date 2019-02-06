@@ -1,4 +1,4 @@
-var photosJSON = require('../photos.json');
+var photosJSON = require('../routes/photos.json');
 
 // Home
 // get request for a route
