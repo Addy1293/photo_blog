@@ -6,11 +6,25 @@
 
   </head>
   <body>
+
+    <% include partials/header.ejs %>
+
+    <div id="hero-image">
+      <h1 id="hero-title"><%= title %></h1>
+    </div>
+
+    <div id="posters-wrapper" class="content-padding clearfix">
+
+      <% for (var i =0; i < photos.length; i++) { %>
+        <div class="poster">
+        <!-- This will get the images from the class called poster in images. -->
+          <img src="/images/<%= photos[i].poster %>" class="img-responsive">
+        </div>
+      <% } %>
+
+    </div>
     
-    <% for (var i =0; i < photos.length; i++) { %>
-      <!-- This will get the images from the class called poster in images. -->
-      <img src="/images/<%= photos[i].poster %>" class="img-responsive">
-    <% } %>
+    
     <!-- stopped at loop through photos -->
 
 
