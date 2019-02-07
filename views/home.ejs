@@ -14,11 +14,18 @@
     </div>
 
     <div id="posters-wrapper" class="content-padding clearfix">
-
+      <!-- Outputting the picture poster. -->
       <% for (var i =0; i < photos.length; i++) { %>
         <div class="poster">
         <!-- This will get the images from the class called poster in images. -->
           <img src="/images/<%= photos[i].poster %>" class="img-responsive">
+
+          <!-- [i] is the current picture content. -->
+          <div class="poster-info-overlay">
+            <h3><%= photos[i].title %></h3>
+            <h4>View More <i class="fa fa-arrow-right"></i></h4>
+          </div>
+
         </div>
       <% } %>
 

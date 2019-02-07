@@ -83,7 +83,7 @@ Navbar and Navigation Styles / Overrides
 }
 
 .dropdown.open .dropdown-menu li a:hover {
-	color: #fde5b9;
+	color: turquoise;
     text-decoration: none;
 }
 
