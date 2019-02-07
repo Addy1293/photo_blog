@@ -4,7 +4,7 @@
 
       "title" : "Dam Reflection",
       "episode_number" : "1",
-      "main_characters" : ["Photo take by Adam Gool"],
+      "main_characters" : ["Adam Gool"],
       "description" : "This is a view of a dam in Kleinmond. In this picture one can see the amazing view of the mountains and sky. The sky bounces off the water giving it a reflection effect. This is a peaceful and hidden place to have a swim.",
       "poster" : "home-1.jpg",
       "hero_image" : "home-1.jpg"
@@ -13,25 +13,25 @@
     {
       "title" : "Jaguar E-Type 71'",
       "episode_number" : "2",
-      "main_characters" : ["Photo taken by Adam Gool"],
+      "main_characters" : ["Adam Gool"],
       "description" : "Jaguar E-Type next to a newly designed building with lots of colours that bring the image to life. The buildings in the background makes the car look extra special.",
       "poster" : "home-2.jpg",
-      "hero_image" : "home-2.jpg"
+      "hero_image" : "archive-3.jpg"
     },
   
     {
       "title" : "Yellow Striped Frog",
       "episode_number" : "3",
-      "main_characters" : ["Photo taken by Adam Gool"],
-      "description" : "This picture has a very detailed image of a frog. The frog is sitting on a lily enjoying the sun. One can see the water edging on the lily giving the picture move detail.",
+      "main_characters" : ["Adam Gool"],
+      "description" : "This picture has a very detailed image of a frog. The frog is sitting on a lily enjoying the sun. One can see the water edging on the lily giving the picture more detail.",
       "poster" : "home-3.jpg",
-      "hero_image" : "home-3.jpg"
+      "hero_image" : "archive-1.jpg"
     },
   
     {
       "title" : "Sun reflecting on water",
       "episode_number" : "4",
-      "main_characters" : ["Photo taken by Adam Gool"],
+      "main_characters" : ["Adam Gool"],
       "description" : "As the sun shines over the mountain there is a dark effect coming from the sun. This makes the picture look beautiful with a boat rowing in the background.",
       "poster" : "archive-2.jpg",
       "hero_image" : "archive-2.jpg"
@@ -40,16 +40,16 @@
     {
       "title" : "Young married couple soul gazing",
       "episode_number" : "5",
-      "main_characters" : ["Photo taken by Adam Gool"],
+      "main_characters" : ["Adam Gool"],
       "description" : "This picture displays beautiful lighting with the sun shining over the mountain and water filling most of the image. This portrait has a bokah effect around the couple.",
       "poster" : "archive-6.jpg",
-      "hero_image" : "archive-6.jpg"
+      "hero_image" : "archive-4.jpg"
     },
   
     {
       "title" : "Sun setting on mountain",
       "episode_number" : "6",
-      "main_characters" : ["Photo take by Adam Gool"],
+      "main_characters" : ["Adam Gool"],
       "description" : "Sun setting on the mountain displaying exceptional colours on the horizon, aswell as refecting yellow/orange across the water.",
       "poster" : "archive-5.jpg",
       "hero_image" : "archive-5.jpg"

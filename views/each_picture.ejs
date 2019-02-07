@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Ruby on rails includes head.ejs in home page -->
+    <% include partials/head.ejs %>
+
+  </head>
+  <body>
+
+    <% include partials/header.ejs %>
+
+    <div id="hero-image-single" style="background-image: url('/images/<%= photo.hero_image %>')">
+      <h1 id="hero-title"><%= title %></h1>
+    </div>
+
+    <div class="content-padding clearfix">
+        <div class="poster-wrapper">
+            <img src="/images/<%= photo.poster %>" class="img-responsive">
+        </div>
+
+        <div class="description-wrapper">
+
+            <div class="description">
+                <h2 class="photo-header">Description</h2>
+                <p><%= photo.description %></p>
+            </div>
+
+            <div class="main_characters"> 
+                <h2 class="photo-header">Photographer</h2>
+                <ul>
+                    <% for (var i = 0; i < main_characters.length; i++) { %>
+                        <li><%= main_characters[i] %></li>
+                    <% } %>
+                </ul>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Ruby on rails includes script.ejs in home page -->
+    <% include partials/script.ejs %>
+  </body>
+</html>
