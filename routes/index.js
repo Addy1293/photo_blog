@@ -35,9 +35,12 @@ exports.each_picture = function(req, res) {
             photo : photo,
             main_characters : main_characters
         });
-        // The name on the left is the variable accesible & value on the right is what it represents.
+        // The name on the left is the variable accesible & value on the right is what it
     } else {
-        res.send("This isnt the page you are look for. Try 1-6 please.");
+        res.render('notFound', {
+            photos : photos,
+            title : "This is not the page you are looking for."
+        });
     }
 
 };
@@ -45,5 +48,10 @@ exports.each_picture = function(req, res) {
 // notFound
 // This is like a 404 error
 exports.notFound = function(req, res) {
-    res.send("This is not the page you're looking for");
+    var photos = photosJSON.photos;
+
+    res.render('notFound', {
+        photos : photos,
+        title : "This is not the page you are looking for."
+    });
 };

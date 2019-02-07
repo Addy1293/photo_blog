@@ -12,12 +12,11 @@ body {
 	padding-left: 11%;
 	padding-right: 11%;
 }
-
-
-
-/* --------------------------
-Hero Image / Title Styles 
------------------------------ */
+.about_me{
+	text-align: center;
+	font-style: italic;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
 #hero-image {
 	height: 550px;
 	width: 100%;
@@ -57,11 +56,6 @@ Hero Image / Title Styles
   font-size: 1.20em;
   letter-spacing: 0.4px;
 }
-
-
-
-
-
 /* ---------------------------------------
 Navbar and Navigation Styles / Overrides 
 ------------------------------------------ */
@@ -103,11 +97,6 @@ Navbar and Navigation Styles / Overrides
 .navbar-nav>li>.dropdown-menu {
 	background-color: rgba(0,0,0,0.5);
 }
-
-
-
-
-
 /* -----------------------------
 Home Page Posters Styles 
 -------------------------------- */
@@ -121,8 +110,6 @@ Home Page Posters Styles
 	display: inline-block;
 	position: relative;
 }
-
-
 /* Poster Overlay Styles */
 .poster-info-overlay {
 	position: absolute;
@@ -178,7 +165,7 @@ footer::before {
 
 footer p {
 	float: left;
-	color: #999;
+	color: black;
 	letter-spacing: 0.3px;
 	font-size: 12px;
 	padding-bottom: 20px;
@@ -190,7 +177,7 @@ footer .social-media-icons {
 
 footer .social-media-icons i {
 	font-size: 24px;
-	color: #999;
+	color: black;
 	transition: 0.5s ease-in-out;
 }
 
@@ -199,11 +186,11 @@ footer .social-media-icons a:first-child {
 }
 
 footer .social-media-icons a:last-child:hover i {
-	color: #af0b0c;
+	color: #000000;
 }
 
 footer .social-media-icons a:first-child:hover i {
-	color: #333;
+	color: black;
 }
 
 
@@ -465,8 +452,8 @@ Page Not Found Template Styles
 #hero-image-notFound {
 	height: 550px;
 	width: 100%;
-	background-color: #444;
-	background-image: url('../images/404.jpg');
+	background-color: darkslategrey;
+	background-image: url('../images/archive-3.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
