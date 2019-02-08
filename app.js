@@ -17,6 +17,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 // imbeded javascript to loop through a array.
 app.get('/', routes.home);
 
+app.get('/create', (req, res) => {
+    res.render('create');
+});
+
 // 1st photography pictures 
 app.get('/photography_blog/:each_picture ?', routes.each_picture);
 
