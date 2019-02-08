@@ -28,6 +28,4 @@ app.get('/photography_blog/:each_picture ?', routes.each_picture);
 // This is like a 404 error
 app.get('*', routes.notFound);
 
-app.listen(3000, function(){
-    console.log("app is running on localhost:3000");
-});
+app.listen(process.env.PORT || 3000);
